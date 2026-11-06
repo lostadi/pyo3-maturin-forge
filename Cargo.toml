@@ -1,0 +1,12 @@
+[package]
+name = "pyo3-maturin-forge"
+version = "0.1.0"
+edition = "2021"
+authors = ["Lee Daghlar Ostadi <ostadi.lee@gmail.com>"]
+description = "Inspect Python imports and scaffold a mixed Python/Rust package with PyO3 and maturin."
+license = "MIT"
+repository = "https://github.com/lostadi/pyo3-maturin-forge"
+readme = "README.md"
+
+[dependencies]
+# Intentionally empty: this CLI is std-only so it can bootstrap even inside chaotic Python environments.

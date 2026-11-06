@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+  <title id="title">PyO3 Maturin Forge</title>
+  <desc id="desc">Keep the Python. Build the bridge.</desc>
+  <rect width="1280" height="340" rx="20" fill="#11111b"/>
+  <rect x="1" y="1" width="1278" height="338" rx="19" fill="none" stroke="#313244"/>
+  <g font-family="'SFMono-Regular',Consolas,monospace">
+    <text x="60" y="65" fill="#a6adc8" font-size="13" letter-spacing="3">PYTHON / RUST / A SMALL USEFUL BOUNDARY</text>
+    <text x="56" y="150" fill="#cdd6f4" font-size="58" font-weight="700" letter-spacing="-2">PyO3 Maturin Forge<tspan fill="#fab387">_</tspan></text>
+    <text x="60" y="204" fill="#bac2de" font-size="24">Keep the Python. Build the bridge.</text>
+    <path d="M60 260 H1218" stroke="#313244"/>
+    <text x="60" y="296" fill="#a6e3a1" font-size="15">scan</text>
+    <text x="132" y="296" fill="#6c7086" font-size="15">→</text>
+    <text x="170" y="296" fill="#89b4fa" font-size="15">scaffold</text>
+    <text x="282" y="296" fill="#6c7086" font-size="15">→</text>
+    <text x="320" y="296" fill="#fab387" font-size="15">build a wheel</text>
+    <text x="1218" y="296" text-anchor="end" fill="#6c7086" font-size="12" letter-spacing="2">LEE DAGHLAR OSTADI</text>
+  </g>
+</svg>

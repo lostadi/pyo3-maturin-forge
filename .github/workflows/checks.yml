@@ -1,0 +1,19 @@
+name: Forge checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cargo test --locked
+      - run: cargo build --release --locked
+      - run: bash -n forge.sh
+      - run: python3 -m pip install maturin==1.15.0
+      - run: python3 tests/smoke.py target/release/pyo3-maturin-forge --wheel

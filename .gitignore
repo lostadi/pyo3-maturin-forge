@@ -1,0 +1,9 @@
+/target/
+/.pyo3-forge/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+.venv/
+dist/
